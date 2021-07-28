@@ -23,5 +23,11 @@
     <Setting Name="DisDisplayStandby" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
+    <Setting Name="RelativeMilkPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.\</Value>
+    </Setting>
+    <Setting Name="RelativeSugarPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.\</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
