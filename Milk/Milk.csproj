@@ -26,6 +26,8 @@
     <SignManifests>false</SignManifests>
     <ManifestCertificateThumbprint>096E86F808B652E125105242C8D07052656FE5FC</ManifestCertificateThumbprint>
     <ManifestKeyFile>Milk_TemporaryKey.pfx</ManifestKeyFile>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Milk_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="publish\**" />

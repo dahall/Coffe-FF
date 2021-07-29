@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coffee", "SleepFix\Coffee.c
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Milk", "Milk\Milk.csproj", "{C26F11FB-C6B0-437A-9005-EA775BAA3BF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sugar", "Sugar\Sugar.csproj", "{8915ABF9-E7CE-43B6-A620-85012D797331}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sugar", "Sugar\Sugar.csproj", "{8915ABF9-E7CE-43B6-A620-85012D797331}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{78DF35C1-3743-4DF5-A648-E821C5C2D33A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,11 @@ Global
 		{8915ABF9-E7CE-43B6-A620-85012D797331}.Release|x64.Build.0 = Release|Any CPU
 		{8915ABF9-E7CE-43B6-A620-85012D797331}.Release|x86.ActiveCfg = Release|Any CPU
 		{8915ABF9-E7CE-43B6-A620-85012D797331}.Release|x86.Build.0 = Release|Any CPU
+		{78DF35C1-3743-4DF5-A648-E821C5C2D33A}.Debug|x64.ActiveCfg = Debug
+		{78DF35C1-3743-4DF5-A648-E821C5C2D33A}.Debug|x86.ActiveCfg = Debug
+		{78DF35C1-3743-4DF5-A648-E821C5C2D33A}.Release|x64.ActiveCfg = Release
+		{78DF35C1-3743-4DF5-A648-E821C5C2D33A}.Release|x64.Build.0 = Release
+		{78DF35C1-3743-4DF5-A648-E821C5C2D33A}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -521,6 +521,22 @@ namespace Coffee_FF
 		}
 	}
 
+	internal static class ButtonExt
+	{
+		public static void SetElevationRequiredState(this ButtonBase btn, bool required = true)
+		{
+			if (Environment.OSVersion.Version.Major >= 6)
+			{
+				if (!btn.IsHandleCreated) return;
+				if (required) btn.FlatStyle = FlatStyle.System;
+				SendMessage(btn.Handle, (uint)ButtonMessage.BCM_SETSHIELD, IntPtr.Zero, required ? new IntPtr(1) : IntPtr.Zero);
+				btn.Invalidate();
+			}
+			else
+				throw new PlatformNotSupportedException();
+		}
+	}
+
 	//here's the heart of it (Delay IDLE timer by simulating key press)
 	internal static class DelayMaker
 	{
